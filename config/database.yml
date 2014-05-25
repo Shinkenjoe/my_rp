@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: my_rp_development
+  pool: 5
+  username: my_rp
+  password: '12345'
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: my_rp_test
+  pool: 5
+  username: my_rp
+  password: '12345'
+
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
